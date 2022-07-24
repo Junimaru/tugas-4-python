@@ -1,5 +1,4 @@
 # tugas-4-python
-Jawaban Tugas 4 Python
 # Project Library Management System
 
 ## Membuat Database dan Tabel
@@ -7,6 +6,7 @@ Jawaban Tugas 4 Python
 Create_Databases_and_Tables.py
 ```
 Pertama-tama adalah membuat koneski database ke SQL
+
 Membuat database "db_perpus" dan  yang berisi table yang dibutuhkan.
 * tabel USER : list user yang melakukan pendafatarn
 * tabel BUKU : list buku yang tersedia
@@ -76,6 +76,7 @@ Membuat fungi show_buku() dimana proses terdiri dari:
 * Membuat Koneksi Ke SQL
 * Melakukan Inputan
 * Mengambil data dari tabel BUKU sesuai inputan
+
 Note : digunakan pandas untuk merapihkan tabel
 
 Hasilnya:
@@ -86,7 +87,7 @@ Hasilnya:
 ```
 Peminjaman_Buku.py
 ```
-Membuat fungi add_buku() dimana proses terdiri dari:
+Membuat fungi add_pinjam() dimana proses terdiri dari:
 * Membuat Koneksi Ke SQL
 * Melakukan Inputan
 * Menambahkan ke tabel PINJAM
@@ -108,6 +109,7 @@ Membuat fungi show_user() dimana proses terdiri dari:
 * Membuat Koneksi Ke SQL
 * Melakukan Inputan
 * Mengambil data dari tabel USER sesuai inputan
+
 Note : digunakan pandas untuk merapihkan tabel
 
 Hasilnya:
@@ -122,6 +124,7 @@ Membuat fungi show_pinjam() dimana proses terdiri dari:
 * Membuat Koneksi Ke SQL
 * Melakukan Inputan
 * Mengambil data dari tabel PINJAM sesuai inputan
+
 Note : digunakan pandas untuk merapihkan tabel
 
 Hasilnya:
@@ -136,6 +139,7 @@ Membuat fungi cari_buku() dimana proses terdiri dari:
 * Membuat Koneksi Ke SQL
 * Melakukan Inputan
 * Mengambil data dari tabel BUKU sesuai inputan
+
 Note : digunakan pandas untuk merapihkan tabel
 
 Hasilnya:
