@@ -13,6 +13,7 @@ Membuat database "db_perpus" dan  yang berisi table yang dibutuhkan.
 * table PINJAM : list peminjam
 
 Hasilnya:
+
 <img src="img/create-database.png" width="500"/>
 
 ## Membuat Fungsi perantara
@@ -51,6 +52,7 @@ Proses terdiri dari:
 * Menambahkan ke tabel USER
 
 Hasilnya:
+
 <img src="img/add-user.png" width="500"/>
 
 ## Pendafataran Buku Baru
@@ -63,6 +65,7 @@ Membuat fungi add_user() dimana proses terdiri dari:
 * Menambahkan ke tabel BUKU
 
 Hasilnya:
+
 <img src="img/add-buku.png" width="500"/>
 
 ## Menampilkan Daftar Buku
@@ -76,6 +79,7 @@ Membuat fungi show_buku() dimana proses terdiri dari:
 Note : digunakan pandas untuk merapihkan tabel
 
 Hasilnya:
+
 <img src="img/view-buku.png" width="500"/>
 
 ## Peminjaman Buku
@@ -89,9 +93,11 @@ Membuat fungi add_buku() dimana proses terdiri dari:
 * Mengurangi jumlah stock buku pada tabel BUKU
 
 Hasilnya:
+
 <img src="img/pinjam.png" width="500"/>
 
 Update Stock Daftar buku: 
+
 <img src="img/update-buku.png" width="500"/>
 
 ## Menampilkan Daftar User
@@ -105,6 +111,7 @@ Membuat fungi show_user() dimana proses terdiri dari:
 Note : digunakan pandas untuk merapihkan tabel
 
 Hasilnya:
+
 <img src="img/view-user.png" width="500"/>
 
 ## Menampilkan Daftar Peminjam
@@ -118,6 +125,7 @@ Membuat fungi show_pinjam() dimana proses terdiri dari:
 Note : digunakan pandas untuk merapihkan tabel
 
 Hasilnya:
+
 <img src="img/view-pinjam.png" width="500"/>
 
 ## Pencarian
@@ -131,6 +139,7 @@ Membuat fungi cari_buku() dimana proses terdiri dari:
 Note : digunakan pandas untuk merapihkan tabel
 
 Hasilnya:
+
 <img src="img/cari-buku.png" width="500"/>
 
 ## Pengembalian
@@ -144,16 +153,20 @@ Membuat fungi add_kembali() dimana proses terdiri dari:
 * Melakukan pengurangan peminjam pada tabel PINJAM
 
 Hasilnya:
+
 <img src="img/pengembalian.png" width="500"/>
 
 Update stock buku setelah dikembalikan:
+
 <img src="img/update-buku-af.png" width="500"/>
 
 Update list peminjam setelah dikembalikan:
+
 <img src="img/update-pinjam.png" width="500"/>
 
 ## Exit
 Akan muncul pesan terimakasih
+
 <img src="img/terimakasih.png" width="500"/>
 
 
