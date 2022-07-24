@@ -3,10 +3,10 @@ Jawaban Tugas 4 Python
 # Project Library Management System
 
 ## Membuat Database dan Tabel
-Membuat Koneksi Ke Python'
 ```
 Create_Databases_and_Tables.py
 ```
+Pertama-tama adalah membuat koneski database ke SQL
 Membuat database "db_perpus" dan  yang berisi table yang dibutuhkan.
 * tabel USER : list user yang melakukan pendafatarn
 * tabel BUKU : list buku yang tersedia
@@ -46,7 +46,7 @@ Bersi menu yang akan dilakukan eksekusi terhadap fungsi lain seperti :
 ```
 Pendaftaran_User_Baru.py
 ```
-Proses terdiri dari:
+Membuat fungsi add_user() dimana proses terdiri dari:
 * Membuat Koneksi Ke SQL
 * Melakukan Inputan
 * Menambahkan ke tabel USER
@@ -59,7 +59,7 @@ Hasilnya:
 ```
 Pendaftaran_Buku_Baru.py
 ```
-Membuat fungi add_user() dimana proses terdiri dari:
+Membuat fungi add_buku() dimana proses terdiri dari:
 * Membuat Koneksi Ke SQL
 * Melakukan Inputan
 * Menambahkan ke tabel BUKU
